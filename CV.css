@@ -1,0 +1,117 @@
+* {
+    font-family: "arial";
+}
+body {
+    width: 1100px;
+    height: 1250px;
+    margin-top: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+section1 {
+    width: 350px;
+    height: 1249px;
+    background-color: #009DDC;
+    float: left;
+    
+}
+#fotocara, #principal, .primero {/*centrar nombre y profesion, contacto y redes sociales */
+    text-align: center;
+}
+.primero {
+    text-align: center;
+    font-size: 25px;
+}
+img {
+    padding: 25px;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    
+}
+#nombre, #profesion, .primero {/*.primero = contacto y redes sociales */
+    padding: 15px;
+    color: white;
+}
+/* Fotos de las section1 */
+.info {/*la informacion de contactos y redes sociales */
+    margin-left: 35px;
+    color: white;
+} 
+#numero, #correo, #direccion, #facebook, #twitter, #linkedin{
+    background-repeat: no-repeat;
+    background-size: 30px;
+    margin-left: 50px;
+    padding: 5px;
+}
+#numero {/*lista de contacto y redes sociales*/
+    background-image: url(numero.png);
+}
+#correo {
+    background-image: url(correo.png);
+}
+#direccion {
+    background-image: url(location.png);
+}
+#facebook {
+    background-image: url(facebook.png);
+}
+#twitter {
+    background-image: url(twitter.png);
+}
+#linkedin {
+    background-image: url(linkedin.png);
+}
+section2 {
+    width: 620px;
+    height: 940px;
+    background-color: white;
+    float: left;
+    padding: 30px;
+    color: darkslategrey;
+}
+/*para que haya un espacio para la las fotos de la section2 */
+#experiencia, #formacion, #actualizacion, #habi, #cono{
+    margin-left: 35px;
+}
+/*A partir de aqui estan las fotitos de la section2 */
+#foto_exper, #form, #foto_habi, #foto_cono, #actu {
+    background-image: url(experiencia_laboral.png);
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
+#form{
+    background-image: url(formacion.png);
+}
+#foto_habi {
+    background-image: url(habi.png);
+    padding-bottom: 8px;
+}
+#foto_cono {
+    background-image: url(conocimietos.png);
+    padding-bottom: 9px;
+}
+#actu {
+    background-image: url(actualizaciones.png);
+    margin-top: 210px;
+}
+/* final de las fotos de section2 */
+#conocimientos, #habilidades {
+    width: 285px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+hr {
+    width: 250px;
+    border-bottom: 2px solid white;
+    /* mirar cambiar color */
+}
+
+h2{
+    color: #009DDC;
+}
